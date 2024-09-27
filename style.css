@@ -26,3 +26,10 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
