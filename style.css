@@ -25,6 +25,32 @@
     height: auto;
   }
   
+/* Basic link styles */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* When hovering, change the text content */
+nav a:hover::after {
+    content: attr(data-hover); /* Replaces the text with the value of data-hover */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: blue; /* Optional: change hover text color */
+}
+
+/* Hide the original text on hover */
+nav a:hover {
+    color: transparent; /* Makes the original text invisible */
+}
 
 .navbar a {
     position: relative;
