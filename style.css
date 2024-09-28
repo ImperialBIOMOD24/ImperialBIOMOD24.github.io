@@ -47,6 +47,10 @@
     transition: .3s;
 }
 
+.navbar a:hover {
+    color: rgb(113, 145, 166); /* Change text color to blue on hover */
+}
+
 .navbar a:hover::before {
     width: 100%;
 }
