@@ -48,7 +48,7 @@
 }
 
 .navbar a:hover {
-    color: rgb(113, 145, 166); /* Change text color to blue on hover */
+    color: rgb(2, 72, 118); /* Change text color to blue on hover */
 }
 
 .navbar a:hover::before {
