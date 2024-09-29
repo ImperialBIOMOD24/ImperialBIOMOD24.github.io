@@ -43,6 +43,7 @@
 
 .navbar a {
     position: relative;
+    line-height: 1;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
