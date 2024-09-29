@@ -21,19 +21,19 @@
 }
 
 .logo {
-    width: 20%;  /* The logo will be 20% of the parent container's width */
+    width: 100px;  /* The logo will be 20% of the parent container's width */
     height: auto;
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
 .year-text {
     font-size: 40px;
-    margin-left: 0px;
     font-weight: bold;
-    padding: 0;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.11);  
+    color: rgba(0, 0, 0, 0.11);
+    margin-left: 0px;
+    padding: 0;  
 }
 
 .navbar a {
