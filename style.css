@@ -20,11 +20,17 @@
     z-index: 100;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
-    width: 100px;  /* The logo will be 20% of the parent container's width */
+    width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
     display: block;
-    margin-left: 10px;
+    margin-right: 5px;
+    padding: 0;
   }
 
 .year-text {
