@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 100px;
     background: rgb(140, 193, 240);
     display: flex;
     justify-content: space-between;
@@ -38,11 +38,6 @@
     margin-left: 0px;
     padding: 0;
     line-height: 1;  
-}
-
-.navbar {
-    flex-grow: 1; /* Ensure the navbar uses the remaining space */
-    text-align: right;
 }
 
 .navbar a {
