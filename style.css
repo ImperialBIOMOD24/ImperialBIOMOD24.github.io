@@ -24,7 +24,12 @@
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
   }
-  
+
+.year-text {
+    font-size: 24px;
+    margin-left: 10px;
+    color: black;
+}
 
 .navbar a {
     position: relative;
