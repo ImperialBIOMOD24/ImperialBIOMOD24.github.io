@@ -31,6 +31,12 @@
     margin-left: 10px;
   }
 
+  .navbar {
+    flex-grow: 1; /* Make the navbar take up remaining space */
+    text-align: right; /* Align navbar to the right */
+    width: 85%; /* Set navbar width */
+}
+
 .year-text {
     font-size: 40px;
     font-weight: bold;
