@@ -29,7 +29,7 @@
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
     display: block;
-    margin-right: 10px;
+    margin-left: 20px;
   }
 
 .year-text {
@@ -37,7 +37,8 @@
     font-weight: bold;
     color: rgba(0, 0, 0, 0.11);
     margin-left: 0px;
-    padding: 0;  
+    padding: 0;
+    line-height: 1;  
 }
 
 .navbar a {
