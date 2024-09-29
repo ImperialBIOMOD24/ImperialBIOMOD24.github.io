@@ -28,7 +28,7 @@
 .logo {
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
-    margin-right: 30px;
+    margin-left: 5px;
   }
 
 .year-text {
