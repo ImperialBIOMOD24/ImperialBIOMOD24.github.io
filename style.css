@@ -23,15 +23,16 @@
 .logo {
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
-    padding: 0;
+    display: block;
   }
 
 .year-text {
     font-size: 40px;
-    margin-left: -5px;
+    margin-left: 0px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.11);
     padding: 0;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.11);  
 }
 
 .navbar a {
