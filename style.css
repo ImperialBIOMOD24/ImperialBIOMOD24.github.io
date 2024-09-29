@@ -21,21 +21,20 @@
 }
 
 .logo-container {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
     display: block;
-    margin-right: 5px;
-    padding: 0;
+    margin-right: 10px;
   }
 
 .year-text {
     font-size: 40px;
     font-weight: bold;
-    line-height: 1;
     color: rgba(0, 0, 0, 0.11);
     margin-left: 0px;
     padding: 0;  
