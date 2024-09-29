@@ -40,13 +40,18 @@
     line-height: 1;  
 }
 
+.navbar {
+    flex-grow: 1; /* Ensure the navbar uses the remaining space */
+    text-align: right;
+}
+
 .navbar a {
     position: relative;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .navbar a::before {
