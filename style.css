@@ -24,6 +24,7 @@
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
     display: block;
+    margin-right: 50px;
   }
 
 .year-text {
