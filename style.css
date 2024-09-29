@@ -42,10 +42,6 @@
     line-height: 1;  
 }
 
-.navbar {
-    display: flex; /* Ensures links are aligned in a row */
-    white-space: nowrap; /* Prevents wrapping of the links */
-}
 
 .navbar a {
     position: relative;
@@ -54,7 +50,6 @@
     font-weight: 500;
     text-decoration: none;
     margin-left: 15px;
-    line-height: 1;
     padding: 0;
 }
 
