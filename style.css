@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 50px;
+    padding: 10px 100px;
     background: rgb(140, 193, 240);
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,6 @@
     width: 20%;  /* The logo will be 20% of the parent container's width */
     height: auto;
     display: block;
-    margin-left: 20px;
   }
 
 .year-text {
