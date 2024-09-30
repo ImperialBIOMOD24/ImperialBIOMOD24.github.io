@@ -84,9 +84,6 @@
     width: 100%;
 }
 
-h3 {
-    color: rgba(122, 129, 134, 0.896);
-}
 
 .abstract-title{
     font-weight: lighter;
@@ -103,4 +100,11 @@ h3 {
     background-color: rgba(175, 173, 173, 0.584);
     width: 100%;
     margin: 10px 0;
+}
+
+.abstract-body{
+    font-size: 18px;
+    color: rgba(122, 129, 134, 0.896);
+    line-height: 1.5;
+    text-align: justify;
 }
