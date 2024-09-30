@@ -98,7 +98,9 @@ h3 {
 
 .divider{
     border: none;
+    position: relative;
     height: 2px;
     background-color: rgba(175, 173, 173, 0.584);
     width: 100%;
+    margin: 10px 0;
 }
