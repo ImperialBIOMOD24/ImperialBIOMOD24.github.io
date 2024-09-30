@@ -46,8 +46,9 @@
     display: flex;  /* Aligns items to the right side */
     justify-content: flex-end;
     align-items: center;
-    flex-grow: 1;               /* Makes the navbar take up remaining space */
-    flex-wrap: nowrap;
+    white-space: nowrap;
+    margin-left: 20px;              /* Makes the navbar take up remaining space */
+    flex-shrink: 0;
 }
 
 .navbar a {
@@ -58,6 +59,10 @@
     text-decoration: none;
     margin-left: 20px;
     padding: 0;
+}
+
+.navbar a:last-child {
+    margin-right: 0;  /* Ensure no extra space after the last link */
 }
 
 .navbar a::before {
