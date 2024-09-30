@@ -31,6 +31,12 @@
             <a href="Test">TEST</a>
             <a href="About_Us">ABOUT US</a>
       </nav>
+
+      <main id="content" class="main-content" role="main">
+        <h1 class="abstract-title">Abstract</h1> <!-- Add the heading here -->
+        <div class="divider"></div>
+      </main>
+      
     </header>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -40,11 +46,6 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
-
-    <main id="content" class="main-content" role="main">
-      <h1 class="abstract-title">Abstract</h1> <!-- Add the heading here -->
-      <div class="divider"></div>
-    </main>
     
   </body>
 </html>
