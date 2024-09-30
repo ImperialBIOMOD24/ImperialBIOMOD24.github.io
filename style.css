@@ -88,7 +88,7 @@
 .abstract-title{
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
-    font-size: 48px;
+    font-size: 56px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -103,8 +103,8 @@
 }
 
 .abstract-body{
-    font-size: 32px;
+    font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
-    line-height: 5;
+    line-height: 3.5;
     text-align: justify;
 }
