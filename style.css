@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 50px;
+    padding: 10px 20px;
     background: rgb(140, 193, 240);
     display: flex;
     justify-content: space-between;
@@ -44,10 +44,11 @@
 
 .navbar {
     display: flex;  /* Aligns items to the right side */
-    flex-grow: 1;               /* Makes the navbar take up remaining space */
+    justify-content: flex-end;
     align-items: center;
+    flex-grow: 1;               /* Makes the navbar take up remaining space */
     flex-wrap: nowrap;
-    margin-left: 50px;         /* Aligns text vertically in the center */
+    margin-left: 20px;         /* Aligns text vertically in the center */
 }
 
 .navbar a {
