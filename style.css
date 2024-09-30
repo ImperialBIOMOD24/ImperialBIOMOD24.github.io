@@ -42,6 +42,12 @@
     line-height: 1;  
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;  /* Aligns items to the right side */
+    flex-grow: 1;               /* Makes the navbar take up remaining space */
+    align-items: center;         /* Aligns text vertically in the center */
+}
 
 .navbar a {
     position: relative;
