@@ -48,7 +48,7 @@
     align-items: center;
     flex-grow: 1;               /* Makes the navbar take up remaining space */
     flex-wrap: nowrap;
-    margin-left: 20px;         /* Aligns text vertically in the center */
+    margin-right: 20px;         /* Aligns text vertically in the center */
 }
 
 .navbar a {
@@ -57,7 +57,7 @@
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 20px;
+    margin-left: 20px;
     padding: 0;
 }
 
