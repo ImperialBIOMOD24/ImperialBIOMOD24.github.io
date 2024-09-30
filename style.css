@@ -43,10 +43,11 @@
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;  /* Aligns items to the right side */
+    display: flex;  /* Aligns items to the right side */
     flex-grow: 1;               /* Makes the navbar take up remaining space */
-    align-items: center;         /* Aligns text vertically in the center */
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 50px;         /* Aligns text vertically in the center */
 }
 
 .navbar a {
