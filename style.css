@@ -45,9 +45,9 @@
 .navbar {
     display: flex;  /* Aligns items to the right side */
     justify-content: flex-end;
+    align-items: center;
     flex-grow: 1;               /* Makes the navbar take up remaining space */
     flex-wrap: nowrap;
-    margin-right: 50px;         /* Aligns text vertically in the center */
 }
 
 .navbar a {
