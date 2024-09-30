@@ -83,3 +83,17 @@
 .navbar a:hover::before {
     width: 100%;
 }
+
+.abstract-title{
+    font-weight: lighter;
+    color: rgba(175, 173, 173, 0.584);
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.divider{
+    border: none;
+    height: 2px;
+    background-color: rgba(175, 173, 173, 0.584);
+    width: 5px;
+}
