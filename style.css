@@ -42,6 +42,12 @@
     line-height: 1;  
 }
 
+.image-logo {
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+}
+
 .navbar {
     display: flex;  /* Aligns items to the right side */
     justify-content: flex-end;
