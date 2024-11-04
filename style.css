@@ -21,6 +21,11 @@
     height: 60px;
 }
 
+.biomod-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;}
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -42,11 +47,6 @@
     line-height: 1;  
 }
 
-.image-logo {
-    width: 50px;
-    height: auto;
-    margin-left: 20px;
-}
 
 .navbar {
     display: flex;  /* Aligns items to the right side */
