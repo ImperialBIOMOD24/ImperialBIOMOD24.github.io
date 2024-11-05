@@ -34,7 +34,6 @@
       
     </header>
     <header class="page-header" role="banner">
-      <img src="Logo_BIOMOD.jpeg" class="biomod-logo" alt="BIOMOD Logo">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.show_downloads %}
@@ -44,22 +43,27 @@
     </header>
     
     <main id="content" class="main-content" role="main">
-      <span class="abstract-title">Abstract</span>
-      <div class="divider"></div>
-      <p class="abstract-body">"Of the 450 million tonnes of plastic produced globally every year, less than 10% is 
-        estimated to be recycled. Insufficient and expensive recycling technologies limit the 
-        proportion of plastics which can be repurposed into new materials, while lack of 
-        economic incentive has encouraged the uptake of less sustainable waste management 
-        strategies.
-        The IsPETase-MHETase cascade is a new low energy recycling technology which is 
-        able to degrade PET to useful products through the manipulation of cellular machinery. 
-        Enzymes IsPETase and IsMHETase are immobilised on DNA origami modular 
-        nanotubes to enhance degradation of PET via metabolite channelling.
-        These products can be separated and used for the generation of new materials 
-        (terephthalic acid) or repurposed for a variety of commercial applications including 
-        antifreeze and break-fluid products.
-        We hope that our technology may be used in the development of novel, low energy 
-        plastic recycling techniques."</p>
+      <div class="abstract-container">
+        <img src="Arrow.svg" alt="Arrow Image" class="logo-image">
+        <div class="abstract-text">
+          <span class="abstract-title">Abstract</span>
+          <div class="divider"></div>
+          <p class="abstract-body">"Of the 450 million tonnes of plastic produced globally every year, less than 10% is 
+            estimated to be recycled. Insufficient and expensive recycling technologies limit the 
+            proportion of plastics which can be repurposed into new materials, while lack of 
+            economic incentive has encouraged the uptake of less sustainable waste management 
+            strategies.
+            The IsPETase-MHETase cascade is a new low energy recycling technology which is 
+            able to degrade PET to useful products through the manipulation of cellular machinery. 
+            Enzymes IsPETase and IsMHETase are immobilised on DNA origami modular 
+            nanotubes to enhance degradation of PET via metabolite channelling.
+            These products can be separated and used for the generation of new materials 
+            (terephthalic acid) or repurposed for a variety of commercial applications including 
+            antifreeze and break-fluid products.
+            We hope that our technology may be used in the development of novel, low energy 
+            plastic recycling techniques."</p>
+        <div>
+      </div>
     </main>
 
   </body>
