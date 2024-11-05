@@ -107,9 +107,9 @@
 
 .abstract-text{
     flex: 1;
-    max-width: 1300px;
+    max-width: 1200px;
     margin-left: 200px;
-    min-width: 800px;
+    min-width: 300px;
 }
 
 .abstract-title{
