@@ -99,7 +99,9 @@
 .logo-image{
     width: 150px;
     height: auto;
-    margin-right: 80px;
+    margin: 0;
+    position: relative;
+    left: 0;
 }
 
 .abstract-text{
