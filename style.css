@@ -103,6 +103,7 @@
     margin: 0;
     position: absolute;
     left: -150px;
+    transition: transform 0.5s;
 }
 
 @keyframes spin {
@@ -115,7 +116,7 @@
 }
 
 .logo-image:hover {
-    animation: spin 2s linear;
+    animation: spin 1s linear;
 }
 
 .abstract-text{
