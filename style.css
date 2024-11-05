@@ -97,6 +97,21 @@
     position: relative;
 }
 
+.image-container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+}
+
+.logo-1-image{
+    width: 150px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    left: -150px;
+}
+
 .logo-image{
     width: 150px;
     height: auto;
@@ -116,7 +131,7 @@
 }
 
 .logo-image:hover {
-    animation: spin 0.6s linear infinite;
+    animation: spin 0.6s linear;
 }
 
 .abstract-text{
