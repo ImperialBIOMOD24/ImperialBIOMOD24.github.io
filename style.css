@@ -101,7 +101,7 @@
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 150px;
+    margin-left: -150px;
 }
 
 .logo-1-image{
