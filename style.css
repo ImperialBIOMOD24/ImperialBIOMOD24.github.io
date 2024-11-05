@@ -105,6 +105,19 @@
     left: -150px;
 }
 
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo-image:hover {
+    animation: spin 1s linear;
+}
+
 .abstract-text{
     flex: 1;
     max-width: 1200px;
