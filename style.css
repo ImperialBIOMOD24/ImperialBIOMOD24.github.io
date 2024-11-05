@@ -94,18 +94,20 @@
     display: flex;
     align-items: flex-start;
     margin: 20px 0;
+    position: relative;
 }
 
 .logo-image{
     width: 150px;
     height: auto;
     margin: 0;
-    position: relative;
-    left: 0;
+    position: absolute;
+    left: -150px;
 }
 
 .abstract-text{
     flex: 1;
+    margin-left: 200px;
 }
 
 .abstract-title{
