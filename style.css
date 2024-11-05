@@ -99,12 +99,11 @@
 .logo-image{
     width: 150px;
     height: auto;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .abstract-text{
     flex: 1;
-    max-width: 1600px;
 }
 
 .abstract-title{
