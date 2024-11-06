@@ -93,7 +93,8 @@
 .abstract-container{
     display: flex;
     align-items: flex-start;
-    margin: 20px 0;
+    margin: 10px 0;
+    gap: 10px;
     position: relative;
     left: -100px;
 }
