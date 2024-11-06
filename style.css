@@ -102,26 +102,20 @@
     width: 220px;
     height: 220px;
     margin-left: -150px;
+    overflow: hidden;
 }
 
-.logo-1-image{
+.logo-1-image,
+.logo-2-image {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 50%;
+    transition: opacity 0.4s ease;
 }
 
-.logo-2-image{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    opacity: 0;
-}
 
 .logo-image{
     width: 100%;
@@ -130,8 +124,32 @@
     top: 0;
     left: 0;
     border-radius: 50%;
+}
+
+.logo-1-image {
+    opacity: 1;
+}
+
+.logo-2-image {
+    opacity: 0;
+}
+
+.logo-image {
     transition: transform 0.4s;
 }
+
+.image-container:hover .logo-1-image {
+    opacity: 0;
+}
+
+.image-container:hover .logo-2-image {
+    opacity: 1;
+}
+
+.image-container:hover .logo-image {
+    animation: spin 0.6s linear;
+}
+
 
 @keyframes spin {
     from {
@@ -140,18 +158,6 @@
     to {
         transform: rotate(360deg);
     }
-}
-
-.logo-image:hover {
-    animation: spin 0.6s linear;
-}
-
-.logo-1-image:hover + .logo-2-image {
-    opacity: 1;
-}
-
-.logo-1-image:hover {
-    opacity: 0;
 }
 
 .abstract-text{
