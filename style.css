@@ -1,3 +1,5 @@
+@import "{{ site.theme }}";
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -93,16 +95,32 @@
 .abstract-container{
     display: flex;
     align-items: flex-start;
-    margin: 20px 0;
-    position: relative;
+    padding: 20px 5%;
+    gap: 20px;
+    max-width: 100%;
+    /*position: relative*/;
+}
+
+.image-link {
+    display: block;
+    flex-shrink: 0;
+    width: 220px;
+    height: 220px;
+    text-decoration: none;
+    margin-left: -100px;
+}
+
+.image-link:hover {
+    cursor: pointer;
 }
 
 .image-container{
     position: relative;
     width: 220px;
     height: 220px;
-    margin-left: -300px;
-    overflow: hidden;
+    margin-left: 0;
+    margin-left: -100px;
+    /*margin-left: -300px;*/
 }
 
 .logo-1-image,
@@ -149,6 +167,8 @@
 
 .image-container:hover .logo-image {
     animation: spin 0.7s linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 .image-container:hover .logo-image:nth-child(even) {
@@ -175,9 +195,9 @@
 
 .abstract-text{
     flex: 1;
-    max-width: 1400px;
-    margin-left: 20px;
-    min-width: 300px;
+    margin: 0;
+    padding-right: 0;
+    max-width: 100%;
 }
 
 .abstract-title{
