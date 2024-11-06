@@ -23,6 +23,14 @@
     height: 60px;
 }
 
+.main-content {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: flex-start; /* Align to the top */
+    min-height: 100vh; /* Full viewport height, if needed */
+    padding: 20px; /* Optional: Adds some padding from the edges */
+  }
+
 .image-link {
     display: block;
     flex-shrink: 0;
