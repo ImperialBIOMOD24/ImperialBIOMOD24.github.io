@@ -29,7 +29,7 @@
     align-items: flex-start; /* Align to the top */
     min-height: 100vh; /* Full viewport height */
     padding-top: 70px; /* Move down from the top */
-    padding-left: 70px; /* Move right from the left */
+    padding-left: 120px; /* Move right from the left */
   }
 
 .image-link {
