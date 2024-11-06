@@ -101,10 +101,11 @@
 
 .image-link {
     display: block;
+    flex-shrink: 0;
     width: 220px;
     height: 220px;
     text-decoration: none;
-    margin: 0;
+    margin-left: -200px;
 }
 
 .image-link:hover {
@@ -116,7 +117,7 @@
     width: 220px;
     height: 220px;
     margin-left: 0;
-    margin-left: -100px;
+    margin-left: -200px;
     /*margin-left: -300px;*/
 }
 
