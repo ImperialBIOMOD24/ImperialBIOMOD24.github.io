@@ -126,7 +126,7 @@
     border-radius: 50%;
     animation: spin 0.7s linear;
     animation-play-state: paused;
-    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 .logo-1-image {
@@ -151,6 +151,8 @@
 
 .image-container:hover .logo-image {
     animation-play-state: running;
+    animation: none;
+    animation: spin 0.7s linear;
 }
 
 
