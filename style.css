@@ -95,6 +95,7 @@
     align-items: flex-start;
     margin: 20px 0;
     position: relative;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
