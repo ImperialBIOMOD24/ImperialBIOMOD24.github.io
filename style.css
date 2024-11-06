@@ -165,6 +165,8 @@
 
 .image-container:hover .logo-image {
     animation: spin 0.7s linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 .image-container:hover .logo-image:nth-child(even) {
