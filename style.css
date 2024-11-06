@@ -124,6 +124,9 @@
     top: 0;
     left: 0;
     border-radius: 50%;
+    animation: spin 0.7s linear;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
 }
 
 .logo-1-image {
@@ -147,7 +150,7 @@
 }
 
 .image-container:hover .logo-image {
-    animation: spin 0.6s linear;
+    animation-play-state: running;
 }
 
 
