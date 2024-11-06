@@ -166,13 +166,13 @@
 }
 
 .image-container:hover .logo-image {
-    animation: spin 0.7s linear;
+    animation: spin 2s infinite;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }
 
 .image-container:hover .logo-image:nth-child(even) {
-    animation: spin_again 0.7s linear;
+    animation: spin_again 2s infinite;
 }
 
 @keyframes spin {
