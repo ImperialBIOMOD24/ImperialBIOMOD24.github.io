@@ -93,7 +93,7 @@
 .abstract-container{
     display: flex;
     align-items: flex-start;
-    padding: 20px 0;
+    padding: 20px 5%;
     gap: 20px;
     max-width: 100%;
     /*position: relative*/;
@@ -189,7 +189,7 @@
 
 .abstract-text{
     flex-grow: 1;
-    /*max-width: 1400px;*/
+    max-width: 1400px;
     margin-left: 0;
     min-width: 0;
 }
