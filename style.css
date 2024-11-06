@@ -187,7 +187,7 @@
 }
 
 .abstract-text{
-    flex: 1;
+    flex: 2;
     max-width: 1400px;
     margin-left: 20px;
     min-width: 300px;
