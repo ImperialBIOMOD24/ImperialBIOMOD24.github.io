@@ -45,6 +45,14 @@
     line-height: 1;  
 }
 
+.wiki {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.592);
+    margin-left: 5px;
+    padding: 0;
+    line-height: 1;  
+}
 
 .navbar {
     display: flex;  /* Aligns items to the right side */
