@@ -13,15 +13,29 @@
         <img src="Logo.jpeg" class="logo" alt="Logo">
         <span class="year-text">2024</span>
       </div>
-      <nav class="navbar">
-            <a href="Introduction">INTRODUCTION</a>
-            <a href="Design">DESIGN</a>
-            <a href="Build">BUILD</a>
-            <a href="Model">MODEL</a>
-            <a href="Test">TEST</a>
-            <a href="FutureWork">FUTURE WORK</a>
-            <a href="TheTeam">THE TEAM</a>
-      </nav>
+      <div class="navbar">
+        <div class="dropdown">
+          <a href="Introduction">INTRODUCTION</a>
+          <div class="dropdown-content">
+            <a href="#">BACKGROUND</a>
+            <a href="#">PROBLEM</a>
+            <a href="#">OBJECTIVES</a>
+            <a href="#">GOALS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="Design">DESIGN</a>
+          <div class="dropdown-content">
+            <a href="#">DESIGN OVERVIEW</a>
+            <a href="#nanotube-structure-design">NANOTUBE STRUCTURE DESIGN</a>
+          </div>
+        </div>
+        <a href="Build">BUILD</a>
+        <a href="Model">MODEL</a>
+        <a href="Test">TEST</a>
+        <a href="FutureWork">FUTURE WORK</a>
+        <a href="TheTeam">THE TEAM</a>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -32,6 +46,31 @@
             <img src="Arrow.svg" alt="Arrow Image" class="logo-image">
           </div>
         </a>
+
+      <div class="design-container">
+        <div class="design-sect-1">
+          <span class="design-title-1">DESIGN OVERVIEW</span>
+          <div class="divider"></div>
+        </div>
+
+        <div id="nanotube-structure-design" class="design-sect-2">
+          <span class="design-title-2">NANOTUBE STRUCTURE DESIGN</span>
+          <div class="divider"></div>
+          <p class="design-sect-2-body">Initially, we planned to immobilize our enzymes inside a nanotubule formed of a single layer
+            of helical bundles. However, after thermodynamic modelling we found this structure to lack stability due to the diameter
+            required to incorporate multiple enzymes inside the tube. We discovered that we would need a modular nanotubule structure
+            with more redundancy to with stand the kinetic activities taking place inside our metabolite channeling system. 
+            We decided that a reliable initial model would be one highly similar to the modular DNA Origami nanotuble structure for 
+            Glucose Oxidase (GOx) and Horseradish Peroxidase (HP) pulished by Linko, Eerikäinen & A. Kostiainen in 2015 . 
+            The published modular structure was ideal for a two stage catalytic system such as our own with modular reaction chambers.<br><br>
+
+            Our initial assembly involved the use of the same staples as by Linko, Eerikäinen & A. Kostiainen, but a different the method for
+            enzyme immobilisation due to lab reagents available. In place of a biotin enzyme immobilisation system, we modified enzyme base
+            oligonucleotides with NTA-Maleimide to allow immoilisation of PETase and MHETase to these strands in the centre of the nanotubule
+            by their 6His-Tag. (Rp et al., 2009) <br><br></p>
+        </div>
+      </div>
+  
     </main>
 
   </body>
