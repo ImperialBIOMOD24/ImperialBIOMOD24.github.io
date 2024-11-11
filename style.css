@@ -255,6 +255,13 @@
 
 /*DESIGN section*/
 
+.design-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .design-sect-1{
     flex: 1;
     margin: 0;
