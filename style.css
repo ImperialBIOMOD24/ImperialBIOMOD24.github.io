@@ -264,30 +264,17 @@
     padding: 10px;
 }
 
-.design-sect-1{
-    flex: 1;
-    float: none;
-    margin: 0;
-    padding-right: 0;
-    width: 100%;
-}
-
-.design-title-1{
-    font-weight: lighter;
-    color: rgba(122, 129, 134, 0.896);
-    font-size: 56px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
+.design-sect-1,
 .design-sect-2{
     flex: 1;
     float: none;
     margin: 0;
     padding-right: 0;
     width: 100%;
+    padding: 0;
 }
 
+.design-title-1,
 .design-title-2{
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
@@ -301,4 +288,6 @@
     color: rgba(122, 129, 134, 0.896);
     line-height: 2;
     text-align: left;
+    padding-left: 0;
+    padding-right: 0;
 }
