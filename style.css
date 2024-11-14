@@ -345,6 +345,11 @@
     padding-right: 0;
 }
 
+
+#nanotube-structure-design{
+    scroll-margin-top: -80px;
+}
+
 /*BUILD section*/
 
 .build-container{
