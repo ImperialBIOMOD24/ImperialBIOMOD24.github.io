@@ -388,6 +388,44 @@
     margin-bottom: 10px;
 }
 
+/*MODEL section*/
+
+.model-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.model-main-title {
+    font-size: 60px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8); /* Darker shade for emphasis */
+    text-align: left;
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 30px; /* Space between title and the design section */
+    letter-spacing: 2px; /* Optional: to improve readability */
+}
+
+.model-sect-1{
+    flex: 1;
+    float: none;
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.model-title-1{
+    font-weight: lighter;
+    color: rgba(122, 129, 134, 0.896);
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 html {
     scroll-behavior: smooth;
 }
