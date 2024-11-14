@@ -23,6 +23,10 @@
     height: 60px;
 }
 
+.MathJax {
+    font-size: 1em;
+    color: rgba(122, 129, 134, 0.896);
+}
 
 .logo-container {
     display: flex;
