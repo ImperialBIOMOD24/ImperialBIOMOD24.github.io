@@ -309,6 +309,14 @@
     padding: 10px;
 }
 
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .design-sect-1,
 .design-sect-2{
     flex: 1;
@@ -337,7 +345,6 @@
     padding-right: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+html {
+    scroll-behavior: smooth;
 }
