@@ -255,6 +255,15 @@
 
 /*INTRO section*/
 
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
 .intro-main-title {
     font-size: 64px; /* Adjust as needed */
     font-weight: bold;
@@ -263,15 +272,6 @@
     margin-top: 20px; /* Add space at the top */
     margin-bottom: 30px; /* Space between title and the design section */
     letter-spacing: 2px; /* Optional: to improve readability */
-}
-
-.intro-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 10px;
 }
 
 .intro-sect-1,
