@@ -253,6 +253,52 @@
     text-align: justify;
 }
 
+/*INTRO section*/
+
+.intro-main-title {
+    font-size: 64px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgba(127, 4, 4, 0.8); /* Darker shade for emphasis */
+    text-align: center;
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 30px; /* Space between title and the design section */
+    text-transform: uppercase; /* Optional: for all caps */
+    letter-spacing: 2px; /* Optional: to improve readability */
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.intro-sect-1,
+.intro-sect-2,
+.intro-sect-3,
+.intro-sect-4{
+    flex: 1;
+    float: none;
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.intro-title-1,
+.intro-title-2,
+.intro-title-3,
+.intro-title-4{
+    font-weight: lighter;
+    color: rgba(122, 129, 134, 0.896);
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
 /*DESIGN section*/
 
 .design-container{
