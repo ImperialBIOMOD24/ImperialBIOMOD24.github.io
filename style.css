@@ -262,7 +262,6 @@
     text-align: center;
     margin-top: 20px; /* Add space at the top */
     margin-bottom: 30px; /* Space between title and the design section */
-    text-transform: uppercase; /* Optional: for all caps */
     letter-spacing: 2px; /* Optional: to improve readability */
 }
 
@@ -336,4 +335,9 @@
     text-align: left;
     padding-left: 0;
     padding-right: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
