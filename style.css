@@ -260,7 +260,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 2000px;
     padding: 10px;
 }
 
@@ -268,7 +268,7 @@
     font-size: 64px; /* Adjust as needed */
     font-weight: bold;
     color: rgba(127, 4, 4, 0.8); /* Darker shade for emphasis */
-    text-align: center;
+    text-align: left;
     margin-top: 20px; /* Add space at the top */
     margin-bottom: 30px; /* Space between title and the design section */
     letter-spacing: 2px; /* Optional: to improve readability */
