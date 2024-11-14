@@ -6,6 +6,7 @@
     initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="AnimLogo.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <header class="header">
@@ -63,8 +64,14 @@
             <div class="divider"></div>
             <p class="model-sect-1-body">To simulate the effect of the DNA origami on containing the intermediate
                species and thus aiding the reaction kinetics the diffusion of relevant species  with the DNA origami
-                was modelled using MATLAB PDE solver, utilizing finite element analysis. This can solve PDEs of the form:
-                (eqn1) which means that, for Fick’s law at steady state ...
+                was modelled using MATLAB PDE solver, utilizing finite element analysis.<br>
+                This can solve PDEs of the form:<br>
+                <div>
+                  \[
+                    m \frac{\partial^2 \varphi}{\partial t^2} + d \frac{\partial \varphi}{\partial t} - \nabla \cdot \left( c \nabla \varphi \right) + a \varphi = f
+                  \]
+                </div>
+                (eqn1) which means that, for Fick’s law at steady state ...</p>
           </div>
     </main>
 
