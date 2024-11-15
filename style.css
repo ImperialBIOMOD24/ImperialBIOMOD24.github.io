@@ -447,8 +447,7 @@
     padding: 0;
 }
 
-.build-title-1,
-.build-title-2{
+.build-title-1{
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
     font-size: 56px;
@@ -456,10 +455,26 @@
     margin-bottom: 10px;
 }
 
-.build-sect-1-body,
-.build-sect-2-body{
+.build-sect-1-body{
     font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.build-title-2{
+    font-weight: lighter;
+    color: rgba(5, 70, 117, 0.896);
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.build-sect-2-body{
+    font-size: 30px;
+    color: rgba(42, 99, 140, 0.896);
     line-height: 2;
     text-align: left;
     padding-left: 0;
