@@ -412,7 +412,7 @@
     font-size: 64px; /* Adjust as needed */
     font-weight: bold;
     color: rgba(4, 95, 161, 0.8); /* Darker shade for emphasis */
-    text-align: left;
+    text-align: left !important;
     margin-top: 20px; /* Add space at the top */
     margin-bottom: 30px; /* Space between title and the design section */
     letter-spacing: 2px; /* Optional: to improve readability */
