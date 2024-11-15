@@ -289,7 +289,8 @@
 .intro-sect-1,
 .intro-sect-2,
 .intro-sect-3,
-.intro-sect-4{
+.intro-sect-4,
+.references-sect{
     flex: 1;
     float: none;
     margin: 0;
@@ -298,6 +299,7 @@
     padding: 0;
 }
 
+
 .intro-title-1,
 .intro-title-2,
 .intro-title-3,
@@ -305,7 +307,15 @@
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
     font-size: 56px;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.references{
+    font-weight: lighter;
+    color: rgba(122, 129, 134, 0.115);
+    font-size: 46px;
+    text-align: left;
     margin-bottom: 10px;
 }
 
