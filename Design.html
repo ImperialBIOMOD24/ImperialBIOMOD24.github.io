@@ -26,7 +26,7 @@
         <div class="dropdown">
           <a href="Design">DESIGN</a>
           <div class="dropdown-content">
-            <a href="#">DESIGN OVERVIEW</a>
+            <a href="#metabolite-channel-intro">METABOLITE CHANNELLING OVERVIEW</a>
             <a href="#nanotube-structure-design">NANOTUBE STRUCTURE DESIGN</a>
           </div>
         </div>
@@ -58,31 +58,55 @@
           </div>
         </a>
 
-      <div class="design-main-title">DESIGN</div>
-      <div class="design-container">
-        <div class="section design-sect-1">
-          <span class="design-title-1">DESIGN OVERVIEW</span>
-          <div class="divider"></div>
+      <div class="main-design-container">
+        <div class="design-container">
+          <h1 class="design-main-title">DESIGN<br><br></h1>
+          <div id="metabolite-channel-intro" class="section design-sect-1">
+            <span class="design-title-1">METABOLITE CHANNELING WITH DNA ORIGAMI - OVERVIEW</span>
+            <div class="divider"></div>
+            <p class="design-sect-1-body">The immobilization of enzymes on DNA origami is known to increase metabolic activity through
+              increasing proximity of enzymes in multi-enzyme pathways, thus reducing diffusion distances for metabolites <a href="#ref1">1</a>. 
+              Enzyme ratio has been shown to have some effect on metabolic activity <a href="#ref2">2</a>. Although the greatest rate enhancement
+              is observed due to immobilisation to the DNA origami alone, a proportionally smaller increase can be observed from the
+              proximity of enzymes to each other within a system <a href="#ref3">3</a> up to 5nm <a href="#ref4">4</a>. The effect of enzyme orientation on metabolic rate
+              has not been extensively investigated to the best of our knowledge.<br><br></p>
+          </div>
+  
+
+          <div id="nanotube-structure-design" class="section design-sect-2">
+            <span class="design-title-2">NANOTUBE STRUCTURE DESIGN</span>
+            <div class="divider"></div>
+            <p class="design-sect-2-body">Initially, we planned to immobilize our enzymes inside a nanotubule formed of a single layer of
+               helical bundles. However, after thermodynamic modelling we found this structure to lack stability due to the diameter required
+               to incorporate multiple enzymes inside the tube. We discovered that we would need a modular nanotubule structure with more
+               redundancy to withstand the kinetic activities taking place inside our metabolite channeling system. <br>We decided that a reliable
+               initial model would be one highly similar to the modular DNA Origami nanotubule structure for Glucose Oxidase (GOx) and Horseradish
+               Peroxidase (HP) published by Linko, Eerikäinen & Kostiainen in 2015 <a href="#ref5">5</a>. The published modular structure was ideal for a two stage
+               catalytic system such as our own with modular reaction chambers.<br><br>
+
+              Our initial assembly involved the use of the same staples as by Linko, Eerikäinen & A. Kostiainen, but a different the method for
+              enzyme immobilisation due to lab reagents available. In place of a biotin enzyme immobilisation system, we modified enzyme base
+              oligonucleotides with NTA-Maleimide to allow immobilisation of PETase and MHETase to these strands in the centre of the nanotubule by
+              their 6His-Tag <a href="#ref6">6</a>.  <br><br></p>
+          </div>
         </div>
 
-        <div id="nanotube-structure-design" class="section design-sect-2">
-          <span class="design-title-2">NANOTUBE STRUCTURE DESIGN</span>
-          <div class="divider"></div>
-          <p class="design-sect-2-body">Initially, we planned to immobilize our enzymes inside a nanotubule formed of a single layer
-            of helical bundles. However, after thermodynamic modelling we found this structure to lack stability due to the diameter
-            required to incorporate multiple enzymes inside the tube. We discovered that we would need a modular nanotubule structure
-            with more redundancy to with stand the kinetic activities taking place inside our metabolite channeling system. 
-            We decided that a reliable initial model would be one highly similar to the modular DNA Origami nanotuble structure for 
-            Glucose Oxidase (GOx) and Horseradish Peroxidase (HP) pulished by Linko, Eerikäinen & A. Kostiainen in 2015 . 
-            The published modular structure was ideal for a two stage catalytic system such as our own with modular reaction chambers.<br><br>
-
-            Our initial assembly involved the use of the same staples as by Linko, Eerikäinen & A. Kostiainen, but a different the method for
-            enzyme immobilisation due to lab reagents available. In place of a biotin enzyme immobilisation system, we modified enzyme base
-            oligonucleotides with NTA-Maleimide to allow immoilisation of PETase and MHETase to these strands in the centre of the nanotubule
-            by their 6His-Tag. (Rp et al., 2009) <br><br></p>
+        <div class="references-container">
+          <div class="section references-sect">
+            <span class="references">REFERENCES</span>
+            <div class="divider"></div>
+            <p class="references-body">
+              <a id="ref1"><strong>1.</strong>	Fu J, Yang YR, Dhakal S, Zhao Z, Liu M, Zhang T, et al. Assembly of multienzyme complexes on DNA nanostructures. Nat Protoc. 2016 Nov;11(11):2243–73</a><br><br>
+              <a id="ref2"><strong>2.</strong>	Lin P, Yang H, Nakata E, Morii T. Mechanistic Aspects for the Modulation of Enzyme Reactions on the DNA Scaffold. Molecules. 2022 Sep 24;27(19):6309</a><br><br>
+              <a id="ref3"><strong>3.</strong>	Chhabra R, Sharma J, Ke Y, Liu Y, Rinker S, Lindsay S, et al. Spatially Addressable Multiprotein Nanoarrays Templated by Aptamer-Tagged DNA Nanoarchitectures. J Am Chem Soc. 2007 Aug 1;129(34):10304–5</a><br>
+              <a id="ref4"><strong>4.</strong>  Kahn JS, Xiong Y, Huang J, Gang O. Cascaded Enzyme Reactions over a Three-Dimensional, Wireframe DNA Origami Scaffold. JACS Au. 2022 Feb 28;2(2):357–66</a>
+              <a id="ref5"><strong>4.</strong>  Linko V, Eerikäinen M, A. Kostiainen M. A modular DNA origami-based enzyme cascade nanoreactor. Chemical Communications. 2015;51(25):5351–4</a>
+              <a id="ref6"><strong>4.</strong>  Rp G, Cm E, J M, Wm H, Ml M, An K, et al. A facile method for reversibly linking a recombinant protein to DNA. Chembiochem : a European journal of chemical biology [Internet]. 2009 Jun 15 [cited 2024 Nov 10];10(9). Available from: https://pubmed.ncbi.nlm.nih.gov/19449345/</a>
+            </p>
+          </div>
         </div>
       </div>
-  
+
     </main>
 
   </body>

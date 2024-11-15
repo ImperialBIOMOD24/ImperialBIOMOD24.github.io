@@ -361,6 +361,13 @@
 
 /*DESIGN section*/
 
+.main-design-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
+
 .design-container{
     display: flex;
     flex-direction: column;
@@ -368,6 +375,16 @@
     margin: 0 auto;
     max-width: 1000px;
     padding: 10px;
+}
+
+.design-main-title {
+    font-size: 64px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgba(4, 129, 46, 0.8); /* Darker shade for emphasis */
+    text-align: left;
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 30px; /* Space between title and the design section */
+    letter-spacing: 2px; /* Optional: to improve readability */
 }
 
 .section {
@@ -397,6 +414,7 @@
     margin-bottom: 10px;
 }
 
+.design-sect-1-body,
 .design-sect-2-body{
     font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
