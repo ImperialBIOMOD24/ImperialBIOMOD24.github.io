@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="AnimLogo.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/GLTFLoader.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/OrbitControls.js"></script>
 
 
   </head>
@@ -65,7 +64,9 @@
 
       <div class="main-design-container">
         <div class="design-container">
-          <div id="dna_origami" style="width:100%; height:500px;"></div>
+          <figure>
+            <img src="Cadnano.png" alt="cadnano design" style="width:95%;">
+          </figure>
           <h1 class="design-main-title">DESIGN<br><br></h1>
           <div id="metabolite-channel-intro" class="section design-sect-1">
             <span class="design-title-1">METABOLITE CHANNELING WITH DNA ORIGAMI - OVERVIEW</span>
@@ -122,48 +123,6 @@
           </div>
         </div>
       </div>
-
-
-      <script>
-        // Create scene, camera, and renderer
-        var scene = new THREE.Scene();
-        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        var renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.getElementById('dna_origami').appendChild(renderer.domElement);
-        
-        // Add light to the scene
-        var light = new THREE.AmbientLight(0x404040); // Ambient light
-        scene.add(light);
-        var directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-        directionalLight.position.set(5, 5, 5).normalize();
-        scene.add(directionalLight);
-        
-        // Load the .gltf model
-        var loader = new THREE.GLTFLoader();
-        loader.load('dna_origami.gltf', function(gltf) {
-          scene.add(gltf.scene); // Add the loaded model to the scene
-          gltf.scene.scale.set(1, 1, 1); // Adjust the scale if needed
-          gltf.scene.position.set(0, 0, 0); // Adjust the position if needed
-        }, undefined, function(error) {
-          console.error('An error occurred while loading the model:', error);
-        });
-        
-        // Set the camera position
-        camera.position.z = 5;
-        
-        // Add controls for rotating the model
-        var controls = new THREE.OrbitControls(camera, renderer.domElement);
-        
-        // Animation loop
-        function animate() {
-          requestAnimationFrame(animate);
-          controls.update(); // Update the controls
-          renderer.render(scene, camera);
-        }
-        
-        animate();
-        </script>
 
     </main>
 
