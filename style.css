@@ -438,7 +438,8 @@
 }
 
 
-.build-sect-1{
+.build-sect-1,
+.build-sect-3{
     flex: 1;
     float: none;
     margin: 0;
@@ -447,7 +448,8 @@
     padding: 0;
 }
 
-.build-title-1{
+.build-title-1,
+.build-title-3{
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
     font-size: 56px;
