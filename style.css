@@ -267,12 +267,19 @@
 
 /*INTRO section*/
 
+.main-intro-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
+
 .intro-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 1000px;
     padding: 10px;
 }
 
@@ -289,7 +296,8 @@
 .intro-sect-1,
 .intro-sect-2,
 .intro-sect-3,
-.intro-sect-4{
+.intro-sect-4,
+.references-sect{
     flex: 1;
     float: none;
     margin: 0;
@@ -298,6 +306,8 @@
     padding: 0;
 }
 
+
+
 .intro-title-1,
 .intro-title-2,
 .intro-title-3,
@@ -305,8 +315,47 @@
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
     font-size: 56px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
+}
+
+
+.intro-sect-1-body,
+.intro-sect-2-body,
+.intro-sect-3-body,
+.intro-sect-4-body{
+    font-size: 30px;
+    color: rgba(122, 129, 134, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.references-container{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 3000px;
+    padding: 10px;
+    clear: both;
+}
+
+.references{
+    color: rgba(0, 0, 0, 0.641);
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.references-body{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.641);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
@@ -361,6 +410,14 @@
 
 /*BUILD section*/
 
+.main-build-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
+
+
 .build-container{
     display: flex;
     flex-direction: column;
@@ -380,6 +437,7 @@
     letter-spacing: 2px; /* Optional: to improve readability */
 }
 
+
 .build-sect-1{
     flex: 1;
     float: none;
@@ -396,6 +454,53 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
+.build-sect-1-body{
+    font-size: 30px;
+    color: rgba(122, 129, 134, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.build-title-2{
+    font-weight: lighter;
+    color: rgba(5, 70, 117, 0.896);
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.build-sect-2-body{
+    font-size: 30px;
+    color: rgba(42, 99, 140, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.build-sect-2-body .ol-2 {
+    list-style-type: decimal;
+    padding-left: 10px; /* Adjust indentation as needed */
+    padding-right: 0;
+    text-align: left;
+    color: rgba(42, 99, 140, 0.896); /* Set color to match paragraph */
+    font-size: 30px; /* Set font size to match paragraph */
+    line-height: 2;
+}
+
+.build-sect-2-body .ul-1 {
+    list-style-type: disc;
+    padding-left: 10px; /* Adjust indentation as needed */
+    padding-right: 0;
+    text-align: left;
+    color: rgba(42, 99, 140, 0.896); /* Set color to match paragraph */
+    font-size: 30px; /* Set font size to match paragraph */
+    line-height: 2;
+}
+
 
 /*MODEL section*/
 
@@ -444,10 +549,13 @@
     padding-right: 0;
 }
 
+#background,
 #nanotube-structure-design,
+#enzyme-synthesis,
 #diffusion-modelling{
     scroll-margin-top: 80px;
 }
+
 
 html {
     scroll-behavior: smooth;

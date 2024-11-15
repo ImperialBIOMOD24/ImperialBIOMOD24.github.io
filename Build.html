@@ -57,12 +57,53 @@
           </div>
         </a>
 
-        <div class="build-container">
-          <h1 class="build-main-title">Experimental Work</h1>
-          <div id="enzyme-synthesis" class="section build-sect-1">
-            <span class="build-title-1">IsPETase AND IsMHETase SYNTHESIS</span>
-            <div class="divider"></div>
+        <div class="main-build-container">
+          <div class="build-container">
+            <h1 class="build-main-title">Experimental Work<br><br></h1>
+            <div id="enzyme-synthesis" class="section build-sect-1">
+              <span class="build-title-1">IsPETase AND IsMHETase SYNTHESIS</span>
+              <div class="divider"></div>
+              <p class="build-sect-1-body">The gene expression sequences for Ideonella Sakaiensis PETase and MHETase were found
+                from previous gene expression studies (<a href="#ref1">1</a>,<a href="#ref2">2</a>). PETase was expressed with a lamB signal peptide from maltoporin 
+                protein, promoting a Sec-dependent pathway and localisation to the outer e.coli membrane as this has been shown
+                to increase secretion and yield of protein, <a href="#ref3">3</a>. Similar studies could not be found for IsMHETase, thus the protein
+                was expressed with its native signal peptide as described in Janatunaim & Fibrani’s 2020 study.<br><br>
+              </p>
+              <span class="build-title-2">MATERIALS AND METHODS</span>
+              <div class="divider"></div>
+              <div class="build-sect-2-body">
+                <ul-1>
+                  <li>Amino acid sequences were checked against <a href="https://www.rcsb.org" target="_blank">PDB sequences</a> (6ILW for PETase, 6QZ4 for MHETase), using <a href="https://en.vectorbuilder.com/tool/sequence-alignment.html" target="_blank">
+                  Vector Builder Sequence Alignment Tool</a>.
+                  As the PETase sequence had already been codon-optimised in the Joo. et al 2018 study, only MHETase required codon optimisation which was
+                  performed with the <a href="https://eu.idtdna.com/pages/tools/codon-optimization-tool" target="_blank"> IDT Biosciences codon optimisation tool</a>.<br></li>
+                </ul-1>
+
+                <ol class="ol-2">
+                  <li>A pUCIDT +Kan plasmid with each gene of interest were ordered from IDT Biosciences on glycerol stock.</li>
+                  <li>Plasmids were spread on LB agar and incubated at 37ºC overnight.</li>
+                  <li>Two colonies were selected from each gene plate and incubated individually in 5ml LB broth with Kanamycin, with vigorous shaking at 37ºC overnight.</li>
+                  <li>A miniprep was then performed on each of the 4 samples before DNA extract was added to 4 identical liquid E. coli BL21 DE3 cultures and spread over LB agar with Kanamycin and cultured at 37ºC overnight.</li>
+                  <li>One plate for each gene was successful; one colony from each successful plate was then cultured in 100ml LB broth with Kanomycin, with vigorous shaking at 37ºC overnight.</li>
+                  <li>Each culture was then made up to 1L and grown to an optical density of 0.6 and 0.8, after approximately 90 minutes.</li>
+                  <li>Both proteins were than purified as described in <a href="#ref3">3</a>, after which assay with SDS-PAGE was performed to confirm protein production.</li>
+                </ol>
+              </div>
+            </div>
           </div>
+
+          <div class="references-container">
+            <div class="section references-sect">
+              <span class="references">REFERENCES</span>
+              <div class="divider"></div>
+              <p class="references-body">
+                <a id="ref1"><strong>1.</strong>	Joo S, Cho IJ, Seo H, Son HF, Sagong HY, Shin TJ, et al. Structural insight into molecular mechanism of poly(ethylene terephthalate) degradation. Nat Commun. 2018 Jan 26;9(1):382</a><br><br>
+                <a id="ref2"><strong>2.</strong>	Janatunaim RZ, Fibriani A. Construction and Cloning of Plastic-degrading Recombinant Enzymes (MHETase). BIOT. 2020 Sep 25;14(3):229–34</a><br><br>
+                <a id="ref3"><strong>3.</strong>	Seo H, Kim S, Son HF, Sagong HY, Joo S, Kim KJ. Production of extracellular PETase from Ideonella sakaiensis using sec-dependent signal peptides in E. coli. Biochemical and Biophysical Research Communications. 2019 Jan 1;508(1):250–5</a><br>
+              </p>
+            </div>
+          </div>
+        </div>
     </main>
 
   </body>
