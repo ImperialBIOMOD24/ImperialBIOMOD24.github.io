@@ -481,6 +481,27 @@
     padding-right: 0;
 }
 
+.build-sect-2-body .ol-2 {
+    list-style-type: decimal;
+    padding-left: 10px; /* Adjust indentation as needed */
+    padding-right: 0;
+    text-align: left;
+    color: rgba(42, 99, 140, 0.896); /* Set color to match paragraph */
+    font-size: 30px; /* Set font size to match paragraph */
+    line-height: 2;
+}
+
+.build-sect-2-body .ul-1 {
+    list-style-type: disc;
+    padding-left: 10px; /* Adjust indentation as needed */
+    padding-right: 0;
+    text-align: left;
+    color: rgba(42, 99, 140, 0.896); /* Set color to match paragraph */
+    font-size: 30px; /* Set font size to match paragraph */
+    line-height: 2;
+}
+
+
 /*MODEL section*/
 
 .model-container{
@@ -535,16 +556,6 @@
     scroll-margin-top: 80px;
 }
 
-ul-1 {
-    list-style-type: disc;
-    padding-left: 10px;
-}
-
-.ol-2 {
-    list-style-type: decimal; /* Use numbers as bullets */
-    padding-left: 10px; /* Indent the list */
-    margin: 10px 0;
-}
 
 html {
     scroll-behavior: smooth;
