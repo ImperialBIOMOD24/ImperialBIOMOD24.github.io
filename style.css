@@ -312,10 +312,9 @@
 }
 
 .references{
-    font-weight: lighter;
     color: rgba(122, 129, 134, 0.115);
     font-size: 46px;
-    text-align: left;
+    text-align: start;
     margin-bottom: 10px;
 }
 
