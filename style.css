@@ -23,8 +23,8 @@
     height: 60px;
 }
 
-.MathJax {
-    font-size: 1.875em;
+.equation {
+    font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
 }
 

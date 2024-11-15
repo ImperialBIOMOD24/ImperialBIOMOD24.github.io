@@ -65,22 +65,21 @@
             <p class="model-sect-1-body">To simulate the effect of the DNA origami on containing the intermediate
                species, and thus aiding the reaction kinetics, the diffusion of relevant species with the DNA origami
                 was modelled using MATLAB PDE solver, utilizing finite element analysis.<br><br>
-                This can solve PDEs of the form:<br>
-                <div>
+                This can solve PDEs of the form:<br></p>
+                <div class="equation">
                   \[
                     m \frac{\partial^2 \varphi}{\partial t^2} + d \frac{\partial \varphi}{\partial t} - \nabla\cdot \left( \vec{c} \nabla\varphi \right) + a \varphi = f
                   \]
                 </div>
                 [EQUATION 1] 
-                <br>which means that, for Fick’s second law at steady state -
-                <div>
+                <p><br>which means that, for Fick’s second law at steady state -
+                <div class="equation">
                   \[ 
                   0 = D\nabla^2\varphi
                   \]
                 </div>
                 [EQUATION 2]
-                <br>,the parameters have to be set to <div> \[ m = 0, d = 0, a = 0, f = 0 ; \vec{c}  = D \begin{bmatrix} D & 0 & 0 \\ 0 & D & 0 \\ 0 & 0 & D \end{bmatrix} \] </div> for isotropic diffusion with diffusion coefficient, D.</p>
-       </p>
+                <p><br>,the parameters have to be set to <div> \[ m = 0, d = 0, a = 0, f = 0 ; \vec{c}  = D \begin{bmatrix} D & 0 & 0 \\ 0 & D & 0 \\ 0 & 0 & D \end{bmatrix} \] </div> <p>for isotropic diffusion with diffusion coefficient, D.</p>
           </div>
     </main>
 
