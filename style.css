@@ -327,12 +327,13 @@
 }
 
 .references-container{
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     max-width: 2000px;
     padding: 10px;
+    clear: both;
 }
 
 .references{
