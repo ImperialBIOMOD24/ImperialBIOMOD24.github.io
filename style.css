@@ -267,6 +267,12 @@
 
 /*INTRO section*/
 
+.main-intro-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
 
 .intro-container{
     display: flex;
