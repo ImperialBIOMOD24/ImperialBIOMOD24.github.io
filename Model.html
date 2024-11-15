@@ -62,8 +62,9 @@
           <div id="diffusion-modelling" class="section model-sect-1">
             <span class="model-title-1">MODELLING DIFFUSION WITHIN DNA ORIGAMI NANOSTRUCTURES</span>
             <div class="divider"></div>
-            <p class="model-sect-1-body">To simulate the effect of the DNA origami on containing the intermediate
-               species, and thus aiding the reaction kinetics, the diffusion of relevant species with the DNA origami
+            <div style="text-align: center;">
+              <p class="model-sect-1-body">To simulate the effect of the DNA origami on containing the intermediate
+                species, and thus aiding the reaction kinetics, the diffusion of relevant species with the DNA origami
                 was modelled using MATLAB PDE solver, utilizing finite element analysis.<br><br>
                 This can solve PDEs of the form:<br></p>
                 <div class="equation">
@@ -72,15 +73,17 @@
                   \]
                 </div>
                 <mark>[EQUATION 1]</mark>
-            <p class="model-sect-1-body">which means that, for Fick’s second law at steady state -</p>
+              <p class="model-sect-1-body">which means that, for Fick’s second law at steady state -</p>
                 <div class="equation">
                   \[ 
                   0 = D\nabla^2\varphi
                   \]
                 </div>
-                [EQUATION 2]
-            <p class="model-sect-1-body">, the parameters have to be set to <div class="equation"> \[ m = 0 , d = 0 , a = 0 , f = 0 \] </div> <p class="model-sect-1-body">and</p> <div class="equation">\[ \vec{c}  = D \begin{bmatrix} D & 0 & 0 \\ 0 & D & 0 \\ 0 & 0 & D \end{bmatrix} \] </div> <p class="model-sect-1-body">for isotropic diffusion with diffusion coefficient, D.</p>
+                <mark>[EQUATION 2]</mark>
+             <p class="model-sect-1-body">, the parameters have to be set to <div class="equation"> \[ m = 0 , d = 0 , a = 0 , f = 0 \] </div> <p class="model-sect-1-body">and</p> <div class="equation">\[ \vec{c}  = D \begin{bmatrix} D & 0 & 0 \\ 0 & D & 0 \\ 0 & 0 & D \end{bmatrix} \] </div> <p class="model-sect-1-body">for isotropic diffusion with diffusion coefficient, D.</p>
+           </div>
           </div>
+        </div>
     </main>
 
   </body>
