@@ -6,6 +6,7 @@
     initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="AnimLogo.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <header class="header">
@@ -58,14 +59,66 @@
         </a>
 
         <div class="model-container">
+          <h1 class="model-main-title">Simulation.</h1>
           <div id="diffusion-modelling" class="section model-sect-1">
             <span class="model-title-1">MODELLING DIFFUSION WITHIN DNA ORIGAMI NANOSTRUCTURES</span>
             <div class="divider"></div>
-            <p class="model-sect-1-body">To simulate the effect of the DNA origami on containing the intermediate
-               species and thus aiding the reaction kinetics the diffusion of relevant species  with the DNA origami
-                was modelled using MATLAB PDE solver, utilizing finite element analysis. This can solve PDEs of the form:
-                (eqn1) which means that, for Fick’s law at steady state ...
+            <div style="text-align: center;">
+              <p class="model-sect-1-body">To simulate the effect of the DNA origami on containing the intermediate
+                species, and thus aiding the reaction kinetics, the diffusion of relevant species with the DNA origami
+                was modelled using MATLAB PDE solver, utilizing finite element analysis.<br><br>
+                This can solve PDEs of the form:<br></p>
+                <div class="equation">
+                  \[
+                    m \frac{\partial^2 \varphi}{\partial t^2} + d \frac{\partial \varphi}{\partial t} - \nabla\cdot \left( \vec{c} \nabla\varphi \right) + a \varphi = f
+                  \]
+                </div>
+                <mark>[EQUATION 1]</mark>
+              <p class="model-sect-1-body">
+                which means that, for Fick’s second law at steady state -
+              </p>
+              <div class="equation">
+                \[ 
+                0 = D\nabla^2\varphi ,
+                \]
+              </div>
+              <mark>[EQUATION 2]</mark>
+              <p class="model-sect-1-body">
+                the parameters have to be set to
+                <span style="display: inline-block;" class="equation">
+                  \[ m = 0 , d = 0 , a = 0 , f = 0 \]
+                </span>
+              </p>
+              <p class="model-sect-1-body">and</p>
+              <div class="equation" style="display: inline-block;">
+                \[ 
+                \vec{c}  = D \begin{bmatrix} D & 0 & 0 \\ 0 & D & 0 \\ 0 & 0 & D \end{bmatrix} 
+                \] 
+              </div>
+               <p class="model-sect-1-body">
+                for isotropic diffusion with diffusion coefficient, D. <br><br>
+              </p>
+              <p class="model-sect-1-body">The simulation was able to run and provide qualitative <a href="#model-results">results</a>, 
+                however to provide accurate and properly scaled results using a fine enough mesh, more computational power
+                would be required than was available and hence was not pursued further. <br><br></p>
+
+              <p class="model-sect-1-body">
+                <a href="https://onedrive.live.com/?authkey=%21ANcvnuCon23RPcY&id=7D5CCC677944D1D5%211736&cid=7D5CCC677944D1D5" target="_blank">
+                View and download our model here.
+                </a>
+                <br><br>
+              </p>
+              
+              <figure>
+                <img src="Simulation.png" alt="Results Graph" style="width:95%;">
+                <figcaption id="model-results">
+                  QUALITATIVE SIMULATION OF CONCENTRATION PROFILE OF INTERMEDIATE WITHIN DNA NANOSTRUCTURE.<br>
+                  NOTE: DIMENSIONS NOT TO SCALE AND LOG SCALING APPLIED TO CONCENTRATION.<br><br>
+                </figcaption>
+              </figure>
+           </div>
           </div>
+        </div>
     </main>
 
   </body>

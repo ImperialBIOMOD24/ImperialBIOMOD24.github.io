@@ -23,6 +23,10 @@
     height: 60px;
 }
 
+.equation {
+    font-size: 30px;
+    color: rgba(122, 129, 134, 0.896);
+}
 
 .logo-container {
     display: flex;
@@ -354,9 +358,6 @@
 }
 
 
-#nanotube-structure-design{
-    scroll-margin-top: 80px;
-}
 
 /*BUILD section*/
 
@@ -407,6 +408,16 @@
     padding: 10px;
 }
 
+.model-main-title {
+    font-size: 64px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgba(4, 95, 161, 0.8); /* Darker shade for emphasis */
+    text-align: left !important;
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 30px; /* Space between title and the design section */
+    letter-spacing: 2px; /* Optional: to improve readability */
+}
+
 .model-sect-1{
     flex: 1;
     float: none;
@@ -431,6 +442,11 @@
     text-align: left;
     padding-left: 0;
     padding-right: 0;
+}
+
+#nanotube-structure-design,
+#diffusion-modelling{
+    scroll-margin-top: 80px;
 }
 
 html {
