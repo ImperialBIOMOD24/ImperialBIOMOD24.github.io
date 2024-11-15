@@ -361,6 +361,13 @@
 
 /*DESIGN section*/
 
+.main-design-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
+
 .design-container{
     display: flex;
     flex-direction: column;
@@ -397,6 +404,7 @@
     margin-bottom: 10px;
 }
 
+.design-sect-1-body,
 .design-sect-2-body{
     font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
@@ -438,7 +446,8 @@
 }
 
 
-.build-sect-1{
+.build-sect-1,
+.build-sect-3{
     flex: 1;
     float: none;
     margin: 0;
@@ -447,7 +456,8 @@
     padding: 0;
 }
 
-.build-title-1{
+.build-title-1,
+.build-title-3{
     font-weight: lighter;
     color: rgba(122, 129, 134, 0.896);
     font-size: 56px;
@@ -455,7 +465,8 @@
     margin-bottom: 10px;
 }
 
-.build-sect-1-body{
+.build-sect-1-body,
+.build-sect-3-body{
     font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
     line-height: 2;
@@ -548,6 +559,113 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+
+/*FUTURE WORK section*/
+
+.main-fw-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
+
+.fw-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.fw-sect-1{
+    flex: 1;
+    float: none;
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.fw-title-1{
+    font-weight: lighter;
+    color: rgba(122, 129, 134, 0.896);
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fw-sect-1-body{
+    font-size: 30px;
+    color: rgba(122, 129, 134, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.acknowledgments{
+    font-size: 30px;
+    color: rgba(52, 57, 61, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*OUR TEAM section*/
+
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.team-main-title {
+    font-size: 64px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgba(127, 4, 4, 0.8); /* Darker shade for emphasis */
+    text-align: left !important;
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 30px; /* Space between title and the design section */
+    letter-spacing: 2px; /* Optional: to improve readability */
+}
+
+.team-sect-1{
+    flex: 1;
+    float: none;
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.team-title-1,
+.team-title-2,
+.team-title-3{
+    font-weight: lighter;
+    color: rgba(122, 129, 134, 0.896);
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team-sect-1-body,
+.team-sect-2-body,
+.team-sect-3-body,
+.team-sect-4-body{
+    font-size: 30px;
+    color: rgba(122, 129, 134, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 #background,
 #nanotube-structure-design,
