@@ -377,16 +377,6 @@
     padding: 10px;
 }
 
-.design-main-title {
-    font-size: 64px; /* Adjust as needed */
-    font-weight: bold;
-    color: rgba(4, 129, 46, 0.8); /* Darker shade for emphasis */
-    text-align: left;
-    margin-top: 20px; /* Add space at the top */
-    margin-bottom: 30px; /* Space between title and the design section */
-    letter-spacing: 2px; /* Optional: to improve readability */
-}
-
 .section {
     height: 100vh;
     display: flex;
