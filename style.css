@@ -358,9 +358,6 @@
 }
 
 
-#nanotube-structure-design{
-    scroll-margin-top: 80px;
-}
 
 /*BUILD section*/
 
@@ -435,6 +432,11 @@
     text-align: left;
     padding-left: 0;
     padding-right: 0;
+}
+
+#nanotube-structure-design,
+#diffusion-modelling{
+    scroll-margin-top: 80px;
 }
 
 html {
