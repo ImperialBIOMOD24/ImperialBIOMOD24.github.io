@@ -671,7 +671,8 @@
 #nanotube-structure-design,
 #enzyme-synthesis,
 #diffusion-modelling,
-#objectives{
+#objectives,
+#goals{
     scroll-margin-top: 80px;
 }
 
@@ -680,3 +681,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.custom-checkbox {
+  width: 20px; /* Adjust size */
+  height: 20px; /* Adjust size */
+  cursor: pointer; /* Add pointer for better UX */
+}
+
+.custom-checkbox:checked {
+  background-color: #4caf50; /* Add a background color when checked */
+  border: 2px solid #4caf50; /* Match border color */
+}
+
+.custom-checkbox {
+  transform: scale(1.5); /* Simple scaling for larger appearance */
+  margin-right: 10px; /* Add spacing between checkbox and text */
+}
