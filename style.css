@@ -465,8 +465,18 @@
     margin-bottom: 10px;
 }
 
+.build-title-3-sub1,
+.build-title-3-sub2{
+    font-weight: lighter;
+    color: rgba(79, 84, 87, 0.896);
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
 .build-sect-1-body,
-.build-sect-3-body{
+.build-sect-3-body-1,
+.build-sect-3-body-2{
     font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
     line-height: 2;
