@@ -6,6 +6,7 @@
     initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="AnimLogo.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <header class="header">
@@ -43,7 +44,12 @@
             <a href="Model.html#diffusion-modelling">SIMULATION</a>
           </div>
         </div>
-        <a href="Test">TEST</a>
+        <div class="dropdown">
+          <a href="Test">TEST</a>
+          <div class="dropdown-content">
+            <a href="Test.html#AGE-origami">AGE RESULTS</a>
+          </div>
+        </div>
         <a href="FutureWork">FUTURE WORK</a>
         <a href="TheTeam">THE TEAM</a>
       </div>
@@ -93,9 +99,77 @@
             </div>
             <div id="dna-origami" class="section build-sect-3">
               <span class="build-title-3">DNA ORIGAMI</span>
-              <div class="divider"></div>
-              <p class="build-sect-3-body">
-                DNA origami was synthesised according to the protocol as described in <a href="#ref4">4</a>.</p>. 
+              <div class="divider"></div><br>
+              <span class="build-title-3-sub1">SYNTHESIS</span>
+              <p class="build-sect-3-body-1">
+                The synthesis and assembly of the DNA origami PETase and MHETase module units comprising the cascade was adapted from Linko et al. <a href="#ref4">4</a>.<br><br>
+                Staple sequence strands were purchased from IDT. For each of the PETase and MHETase module units, 3 staple strands contained a C<sub>6</sub>-amine modification (5AmMC6)
+                on the 5’ end, intended to act as enzyme linkers for downstream enzyme immobilisation. All strands were first centrifuged (2 mins, 3000 xg) and subsequently resuspended
+                in an amount of 1x TE buffer (10mM pH 8.0 Tris-HCl, 0.1mM EDTA; filter-sterilised 0.22µm filter) to achieve a final concentration of 100&micro;M. 
+                Resuspension was achieved by a combination of centrifugation (2 mins, 3000 xg) and vortexing (1000 rpm) to ensure homogeneity.
+                Oligonucleotides were then stored at -20◦C to maximise stability <a href="#ref5">5</a>.<br><br>
+
+                Concentration was then verified by measuring the absorbance at 260nm (A<sub>260</sub>) using the NanoDrop&trade; One Spectrophotometer, assuming a standard ssDNA conversion
+                factor of 33&micro;g/A<sub>260</sub>, where 
+                \[
+                \text{Concentration}, c \, [\mu\text{g/mL}] = A_{260} \times \text{Conversion Factor}
+                \]
+                and using the Beer-Lambert Law,
+                \[
+                A_{260} = \varepsilon_{260} \times c \times p
+                \]
+                where
+                \[
+                \varepsilon_{260}
+                \]
+                is the extinction coefficient [L/mole.cm] and
+                \[
+                \text{p}
+                \]
+                is the length of light path through sample [cm]. Given some discrepancies between the expected and measured oligo concentration, this was in part likely due to the
+                conversation factor being oligo-specific, which is known to vary between sequence context and base composition <a href="#ref6">6</a>.<br><br>
+              </p>.
+
+              <span class="build-title-3-sub2">ASSEMBLY</span>
+              <p class="build-sect-3-body-2">
+                To synthesise and verify assembly of each module unit, staple strands (including unmodified enzyme linker strands) corresponding to
+                that of the PETase and MHETase structures were mixed and diluted to achieve a final concentration of 500nM.<br><br>
+                For PET Module Unit:<br>
+                <ul-1>
+                  <li>5&micro;L of each staple strand (total: 183 strands), topped up with 85&micro;L Ultrapure water</li>
+                  <li>5&micro;L of each staple strand (total: 187 strands), topped up with 65&micro;L Ultrapure water</li>
+                </ul-1>
+                <br><br>
+                To test for the optimal Mg<sup>2+</sup> ion concentration to achieve optimal folding, DNA origami was folded under
+                <a href="#table-conditions">4 different conditions</a>, with varying concentration of MgCl<sub>2</sub>.<br>
+              </p>
+              <figure>
+                <img src="Table1.png" alt="Conditions Table" style="width:75%;">
+                <figcaption id="table-conditions">
+                  Table 1 - 4 sample conditions with varying MgCl<sub>2</sub> concentration.<br>
+                  Note that R<sub>20</sub> has a higher staples:scaffold molar ratio (20:1), relative to all other conditions (10:1).<br><br>
+                </figcaption>
+              </figure>
+              <p class="build-sect-3-body-2">
+                Each condition was made by mixing an amount of scaffold, staples, and folding buffer (1x TAE buffer (40mM pH 8.0 Tris-HCl,
+                19mM acetic acid, 1mM EDTA),  MgCl<sub>2</sub>, NaCl) together to achieve <a href="#table-conditions-all">50&micro;L of DNA solution</a>.<br>
+              </p>
+              <figure>
+                <img src="Table2.png" alt="Conditions Table All" style="width:75%;">
+                <figcaption id="table-conditions-all">
+                  Table 2 - Composition of each DNA solution.<br><br>
+                </figcaption>
+              </figure>
+              <p class="build-sect-3-body-2"></p>
+                Each DNA origami solution was then annealed over 2 folding temperature ramps (75 minutes, 65-60◦C; 57 hrs, 59-40◦C).<br><br>
+
+                Agarose gel electrophoresis was then conducted to verify the quality of and purify the folded origami. Samples were run in
+                1% agarose gel, prepared by mixing 1g agarose with 100mL 0.1x TAE buffer, and then microwaved for 3 minutes.
+                Once cooled, 30µL of Ethidium bromide solution (0.0625&micro;g/L) was added. The gel was then cast into a gel box with combs.
+                For use as a reference, M13mp18 scaffold strands (7249 bp) were diluted to 50nM, and 1kb DNA ladders were diluted 1 in 10, both
+                with 0.1x TAE buffer. 5µL of each DNA solution, scaffold and DNA ladder were added to 1&micro;L of 6X Purple Loading Dye.
+                The gel was run for 40 minutes at 120V. Gel images were then captured by a Gel Doc (iBright&trade; CL750 Imaging System) [ref figure in test section].
+              </p>
             </div>
           </div>
 
@@ -104,10 +178,12 @@
               <span class="references">REFERENCES</span>
               <div class="divider"></div>
               <p class="references-body">
-                <a id="ref1"><strong>1.</strong>	Joo S, Cho IJ, Seo H, Son HF, Sagong HY, Shin TJ, et al. Structural insight into molecular mechanism of poly(ethylene terephthalate) degradation. Nat Commun. 2018 Jan 26;9(1):382</a><br><br>
+                <a id="ref1"><strong>1.</strong>	Joo S. et al. Structural insight into molecular mechanism of poly(ethylene terephthalate) degradation. Nat Commun. 2018 Jan 26;9(1):382</a><br><br>
                 <a id="ref2"><strong>2.</strong>	Janatunaim RZ, Fibriani A. Construction and Cloning of Plastic-degrading Recombinant Enzymes (MHETase). BIOT. 2020 Sep 25;14(3):229–34</a><br><br>
-                <a id="ref3"><strong>3.</strong>	Seo H, Kim S, Son HF, Sagong HY, Joo S, Kim KJ. Production of extracellular PETase from Ideonella sakaiensis using sec-dependent signal peptides in E. coli. Biochemical and Biophysical Research Communications. 2019 Jan 1;508(1):250–5</a><br><br>
+                <a id="ref3"><strong>3.</strong>	Seo H. et al. Production of extracellular PETase from Ideonella sakaiensis using sec-dependent signal peptides in E. coli. Biochemical and Biophysical Research Communications. 2019 Jan 1;508(1):250–5</a><br><br>
                 <a id="ref4"><strong>4.</strong>	Linko V, Eerikäinen M, A. Kostiainen M. A modular DNA origami-based enzyme cascade nanoreactor. Chemical Communications. 2015;51(25):5351–4</a><br>
+                <a id="ref5"><strong>5.</strong>  Podivinsky E. et al. Effect of storage regime on the stability of DNA used as a calibration standard for real-time polymerase chain reaction. Analytical Biochemistry. 2009 Nov 1;394(1):132-4</a><br><br>
+                <a id="ref6"><strong>6.</strong>  Kara&ccedil;ay B. Four tips for oligonucleotide quantification with Thermo Scientific&trade; NanoDrop&trade; instruments. IDT. 2018 Jan 29</a><br><br>
               </p>
             </div>
           </div>

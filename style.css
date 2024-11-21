@@ -465,8 +465,18 @@
     margin-bottom: 10px;
 }
 
+.build-title-3-sub1,
+.build-title-3-sub2{
+    font-weight: lighter;
+    color: rgba(79, 84, 87, 0.896);
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
 .build-sect-1-body,
-.build-sect-3-body{
+.build-sect-3-body-1,
+.build-sect-3-body-2{
     font-size: 30px;
     color: rgba(122, 129, 134, 0.896);
     line-height: 2;
@@ -667,10 +677,71 @@
 }
 
 
+/*TEST section*/
+
+.main-test-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align containers */
+    width: 100%;
+}
+
+
+.test-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.test-main-title {
+    font-size: 60px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8); /* Darker shade for emphasis */
+    text-align: left;
+    margin-top: 20px; /* Add space at the top */
+    margin-bottom: 30px; /* Space between title and the design section */
+    letter-spacing: 2px; /* Optional: to improve readability */
+}
+
+
+.test-sect-1{
+    flex: 1;
+    float: none;
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.test-title-1{
+    font-weight: lighter;
+    color: rgba(122, 129, 134, 0.896);
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.test-sect-1-body{
+    font-size: 30px;
+    color: rgba(122, 129, 134, 0.896);
+    line-height: 2;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
 #background,
 #nanotube-structure-design,
 #enzyme-synthesis,
+#dna-origami,
 #diffusion-modelling,
+#AGE-origami,
 #objectives,
 #goals{
     scroll-margin-top: 80px;
